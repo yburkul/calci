@@ -5,4 +5,7 @@ num2=30
 
 res=$(( $num1 + $num2 ))
 
+sub=$(( $num1 - $num2 ))
+
 echo "sum: " $res
+echo "sub: " $sub
