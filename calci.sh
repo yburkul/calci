@@ -9,6 +9,9 @@ sub=$(( $num1 - $num2 ))
 
 mul=$(( $num1 * $num2 ))
 
+div=$(( $num1 / $num2 ))
+
 echo "sum: " $res
 echo "sub: " $sub
 echo "mul: " $mul
+echo "div: " $div
