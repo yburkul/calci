@@ -7,5 +7,8 @@ res=$(( $num1 + $num2 ))
 
 sub=$(( $num1 - $num2 ))
 
+mul=$(( $num1 * $num2 ))
+
 echo "sum: " $res
 echo "sub: " $sub
+echo "mul: " $mul
